@@ -1,0 +1,25 @@
+{
+  "name": "amphora-serve-static",
+  "version": "0.0.1",
+  "description": "Serve static files from a site's /static directory in amphora",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clay/amphora-serve-static.git"
+  },
+  "keywords": [
+    "amphora"
+  ],
+  "author": "New York Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clay/amphora-serve-static/issues"
+  },
+  "homepage": "https://github.com/clay/amphora-serve-static#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
